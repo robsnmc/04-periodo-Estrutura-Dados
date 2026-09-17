@@ -21,5 +21,7 @@ public class Principal{
         lista.imprimeLista();
         System.out.println("Dado: " + lista.removeInicio() + " removido!");
         lista.imprimeLista();
+        System.out.println("Dado: " + lista.removeFinal() + " removido!");
+        lista.imprimeLista();
     }
 }
